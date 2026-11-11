@@ -1,70 +1,137 @@
-# Getting Started with Create React Apps
+<h1 align="center">FashionStore</h1>
 
-This project was bootstrapped with [Create React Apps](https://github.com/facebook/create-react-app).
+<p align="center">
+  <b>Лендинг магазина одежды на React: бренды, новинки, распродажа, подборки и мобильное приложение.</b>
+</p>
 
-## Available Scripts
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black" alt="React 19">
+  <img src="https://img.shields.io/badge/Create_React_App-5-09D3AC?logo=createreactapp&logoColor=white" alt="Create React App">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="CSS3">
+  <a href="https://dekciw.github.io/FashionStore/"><img src="https://img.shields.io/badge/GitHub_Pages-online-222222?logo=github&logoColor=white" alt="GitHub Pages"></a>
+</p>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="https://dekciw.github.io/FashionStore/">
+    <img src="https://img.shields.io/badge/Открыть_в_браузере-111111?style=for-the-badge" alt="Открыть в браузере">
+  </a>
+</p>
 
-### `npm start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="center">
+  <img src="assets/screen-hero.png" width="900" alt="Первый экран: Let's explore unique clothes и кнопка Shop Now">
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br>
 
-### `npm test`
+<table align="center">
+  <tr>
+    <th>&#8199;&#8199;&#8199;&#8199;&#8199;&#8199;Разделы&#8199;&#8199;&#8199;&#8199;&#8199;&#8199;</th>
+    <th>&#8199;&#8199;&#8199;&#8199;&#8199;&#8199;Акции&#8199;&#8199;&#8199;&#8199;&#8199;&#8199;</th>
+    <th>&#8199;&#8199;&#8199;&#8199;&#8199;&#8199;Устройство&#8199;&#8199;&#8199;&#8199;&#8199;&#8199;</th>
+  </tr>
+  <tr>
+    <td valign="top">
+      - Промо с кнопкой Shop Now<br>
+      - Логотипы брендов<br>
+      - Новинки по категориям<br>
+      - Подборки Young’s Favourite<br>
+      - Подписка на промокоды<br>
+      - Подвал со ссылками
+    </td>
+    <td valign="top">
+      - Распродажа Payday Sale<br>
+      - Скидка 30% от $100<br>
+      - Подборка «всё до $40»<br>
+      - Ваучер за приложение<br>
+      - Кнопки App Store и Google Play<br>
+      - Макет экрана приложения
+    </td>
+    <td valign="top">
+      - 10 React-компонентов<br>
+      - Общая карточка Card<br>
+      - Свой CSS у компонента<br>
+      - Шрифт Poppins<br>
+      - Create React App<br>
+      - Сайт на GitHub Pages
+    </td>
+  </tr>
+</table>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h3 align="center">Как это выглядит</h3>
 
-### `npm run build`
+<table align="center">
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="assets/screen-arrivals.png" width="420" alt="Новинки: худи, куртки и футболки"><br>
+      <sub>Новинки по категориям</sub>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <img src="assets/screen-sale.png" width="420" alt="Распродажа Payday Sale"><br>
+      <sub>Распродажа</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="assets/screen-favourite.png" width="420" alt="Подборки Young's Favourite"><br>
+      <sub>Подборки</sub>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <img src="assets/screen-app.png" width="420" alt="Блок мобильного приложения с ваучером"><br>
+      <sub>Мобильное приложение</sub>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" valign="top">
+      <img src="assets/screen-community.png" width="420" alt="Подписка на промокоды и подвал"><br>
+      <sub>Подписка и подвал</sub>
+    </td>
+  </tr>
+</table>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details>
+<summary><b>Подробнее о проекте: стек, устройство, запуск</b> (нажми, чтобы развернуть)</summary>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `npm run eject`
+### Стек
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p>
+- <b>Интерфейс:</b> React 19<br>
+- <b>Сборка:</b> Create React App (react-scripts 5)<br>
+- <b>Стили:</b> обычный CSS, у каждого компонента свой файл<br>
+- <b>Шрифт:</b> Poppins из Google Fonts
+</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Устройство проекта
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+src/
+├── App.js                  # собирает страницу из разделов
+├── components/
+│   ├── header/             # логотип, меню и кнопка Sign Up
+│   ├── promo/              # первый экран
+│   ├── brands/             # полоса с логотипами брендов
+│   ├── arrivals/           # новинки по категориям
+│   ├── card/               # карточка, используется в новинках и подборках
+│   ├── sale/               # распродажа
+│   ├── favorite/           # подборки
+│   ├── app/                # мобильное приложение и ваучер
+│   ├── community/          # подписка на промокоды
+│   └── footer/             # подвал
+├── image/                  # фото, иконки и логотипы брендов
+└── styles/                 # сброс и общие стили
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Запуск
 
-## Learn More
+```bash
+npm install
+npm start          # dev-сервер на http://localhost:3000
+npm run build      # сборка в папку build
+```
 
-You can learn more in the [Create React Apps documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web Apps
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</details>
