@@ -1,3 +1,10 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.png">
+    <img src="assets/logo-light.png" width="260" alt="FASHION">
+  </picture>
+</p>
+
 <h1 align="center">FashionStore</h1>
 
 <p align="center">
